@@ -12,3 +12,19 @@ i = torch.ones(2,2)
 y.backward(i)
 print(x.grad)
 print(x)
+
+# class test_base():
+#     def __init__(self,x):
+#         self.x = x
+#         return self.x
+
+# class test(): 
+#     def __init__(self,x):
+#         pass
+
+#     def func(self, x):
+#         return x
+
+# test1 = test()
+# print(test1.func(5))
+# print(test1(5))
